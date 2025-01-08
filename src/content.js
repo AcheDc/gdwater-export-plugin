@@ -270,7 +270,7 @@ button.addEventListener("click", async (event) => {
     tempRowIndex += count + 2;
   }
 
-  console.log("END 导出结果 =====", exportList);
+  // console.log("END 导出结果 =====", exportList);
   // 调用函数将数据导出为 Excel
   exportDataToExcel(exportList, { beginDate, endDate });
 });
